@@ -27,11 +27,6 @@ void fuction_one(){
 	printf("help sos ");
 }
 
-   
-void fuction_one(){
-	printf("help sos ");
-}
-
 void fuction_two(){
 	printf(" hello branch");
 }
