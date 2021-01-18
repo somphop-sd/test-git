@@ -4,3 +4,9 @@ test line3
 kittirak
 =======
 xxx
+
+#include<stdio.h>
+int main(void) {
+	printf("Hello \n");
+	return 0;
+}
