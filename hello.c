@@ -6,16 +6,6 @@ int main(void) {
 }
 
 
-   /* local variable declaration */
-   int result;
- 
-   if (num1 > num2)
-      result = num1;
-   else
-      result = num2;
- 
-   return result; 
+void fuction_one(){
+	printf("help sos ");
 }
-
-int minP(int num1, int num2) { return 0;}
-
