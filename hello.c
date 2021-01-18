@@ -1,12 +1,16 @@
 #include<stdio.h>
 
 int main(void) {
+	
 	printf("Hello world\n");
 	print_prime(500);
 	printf("End of prime\n");
-	minP(5,10);
+	printf("Max value is %d\n", maxP(1,2));
+	printf("Min value is %d\n", minP(1,2));
+	
 	function_one();
 	function_two();
+	
 	return 0;
 }
 
@@ -42,4 +46,34 @@ void print_prime(int maxi) {
 			printf("%d\n",i);
 		}
 	}
+
+int maxP(int num1, int num2) { 
+	int result;
+	   if (num1 < num2)
+	      result = num1;
+	   else
+	      result = num2;
+	
+	return result; 
 }
+
+int minP(int num1, int num2) { 
+	int result;
+	   if (num1 > num2)
+	      result = num1;
+	   else
+	      result = num2;
+	
+	return result; 
+}
+
+
+
+void function_one(){
+	printf("help sos ");
+}
+
+void function_two(){
+	printf(" hello branch");
+}
+
