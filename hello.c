@@ -6,7 +6,6 @@ int main(void) {
 }
 
 
-<<<<<<< HEAD
    /* local variable declaration */
    int result;
  
@@ -20,8 +19,3 @@ int main(void) {
 
 int minP(int num1, int num2) { return 0;}
 
-=======
-void fuction_one(){
-	printf("help sos ");
-}
->>>>>>> 26b97ce024863b2da6dad95ed59b4545d732a750
