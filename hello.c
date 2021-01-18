@@ -5,7 +5,6 @@ int main(void) {
 	return 0;
 }
 
-
 int minP(int num1, int num2) { return 0;}
    /* local variable declaration */
    int result;
@@ -23,6 +22,10 @@ void fuction_one(){
 	printf("help sos ");
 }
 
+   
+void fuction_one(){
+	printf("help sos ");
+}
 
 void fuction_two(){
 	printf(" hello branch");
