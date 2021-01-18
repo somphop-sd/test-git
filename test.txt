@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+000000
+=======
 line0
+>>>>>>> 2d1c157622597bc2783c312a7fd7f7be1947f742
 test line1
 test line2
 test line3
