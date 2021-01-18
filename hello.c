@@ -14,26 +14,6 @@ int main(void) {
 	return 0;
 }
 
-int minP(int num1, int num2) {
-   /* local variable declaration */
-   int result;
- 
-   if(num1 > num2) {
-      result = num1;
-   } else {
-      result = num2;
-   }
-   return result; 
-}
-
-
-void function_one(void){
-	printf("help sos ");
-}
-
-void function_two(void){
-	printf(" hello branch");
-}
 
 void print_prime(int maxi) {
 	for(int i=1;i<maxi;i++) {
