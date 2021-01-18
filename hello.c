@@ -46,6 +46,7 @@ void print_prime(int maxi) {
 			printf("%d\n",i);
 		}
 	}
+}
 
 int maxP(int num1, int num2) { 
 	int result;
