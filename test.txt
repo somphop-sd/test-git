@@ -19,6 +19,14 @@ phet add again
 kittirak
 =======
 xxx
+<<<<<<< HEAD
+
+#include<stdio.h>
+int main(void) {
+	printf("Hello \n");
+	return 0;
+}
+=======
 >>>>>>> 540c14119ba2d11bde961a0fb364dd8c178fd67f
 <<<<<<< HEAD
 
@@ -27,3 +35,4 @@ xxx
 atchariyaL
 =======
 >>>>>>> 810351669afd3f912d18293d22fece4dab964d9c
+>>>>>>> ddefaa6317355863f2a332391bb2f88cfba24e77
