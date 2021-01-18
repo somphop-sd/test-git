@@ -2,14 +2,22 @@ test line1
 test line2
 test line3
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 test lin4 
+=======
+phet add
+>>>>>>> 810351669afd3f912d18293d22fece4dab964d9c
 =======
 kittirak
 =======
 xxx
 >>>>>>> 540c14119ba2d11bde961a0fb364dd8c178fd67f
+<<<<<<< HEAD
 
 
 .............................................................................
+atchariyaL
+=======
+>>>>>>> 810351669afd3f912d18293d22fece4dab964d9c
