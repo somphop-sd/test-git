@@ -2,44 +2,44 @@
 
 int main(void) {
 	printf("Hello world\n");
+	print_prime(500);
+	printf("End of prime\n");
+	minP(5,10);
+	function_one();
+	function_two();
 	return 0;
 }
 
-int minP(int num1, int num2) { return 0;}
+int minP(int num1, int num2) {
    /* local variable declaration */
    int result;
  
-   if (num1 > num2)
+   if(num1 > num2) {
       result = num1;
-   else
+   } else {
       result = num2;
- 
+   }
    return result; 
 }
 
 
-void fuction_one(){
+void function_one(void){
 	printf("help sos ");
 }
 
-   
-void fuction_one(){
-	printf("help sos ");
-}
-
-void fuction_two(){
+void function_two(void){
 	printf(" hello branch");
 }
 
 void print_prime(int maxi) {
 	for(int i=1;i<maxi;i++) {
 		int count=0;
-		for(int j=1;j<i;j++) {
+		for(int j=1;j<=i;j++) {
 			if(i%j==0)
 				count++;
 		}
 		if(count==2) {
-			printf("%d\n",i)
+			printf("%d\n",i);
 		}
 	}
 }
