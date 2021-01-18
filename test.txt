@@ -1,4 +1,10 @@
 test line1
 test line2
 test line3
+<<<<<<< HEAD
 phet add
+=======
+kittirak
+=======
+xxx
+>>>>>>> 540c14119ba2d11bde961a0fb364dd8c178fd67f
