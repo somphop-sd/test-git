@@ -1,9 +1,8 @@
 #include<stdio.h>
 
-int main(void) {
-	
+int main(int argc, char *argv[]) {
 	printf("Hello world\n");
-	print_prime(500);
+	print_prime(atoi(argv[1]));
 	printf("End of prime\n");
 	printf("Max value is %d\n", maxP(1,2));
 	printf("Min value is %d\n", minP(1,2));
