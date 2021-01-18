@@ -19,3 +19,6 @@ int maxP(int num1, int num2) {
  
    return result; 
 }
+
+int minP(int num1, int num2) { return 0;}
+
